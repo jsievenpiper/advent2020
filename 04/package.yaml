@@ -1,0 +1,19 @@
+name:                advent04
+version:             0.1.0.0
+github:              "githubuser/advent04"
+license:             BSD3
+author:              "Author name here"
+maintainer:          "example@example.com"
+copyright:           "2020 Author name here"
+
+dependencies:
+- base >= 4.7 && < 5
+
+executables:
+  advent04-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
